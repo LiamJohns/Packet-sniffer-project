@@ -1,0 +1,29 @@
+To run the program open the PacketSniffer.py file in a text editor such as Pycharm.
+next install the following libaries using either the terminal or the automatic installer found in the code editor:
+Pillow
+Scapy
+ 
+Then scroll down to lines 257 to 263 and then add the current destination that the "images" folder is which is found in the 301 Packet Sniffer Program folder
+
+
+     carousel.add_image("       /image1.jpg")
+     carousel.add_image("      /image2.jpg")
+     carousel.add_image("      /image3.jpg")
+     carousel.add_image("      /image4.jpg")
+     carousel.add_image("      /image5.jpg")
+     carousel.add_image("      /image6.jpg")
+     carousel.add_image("      /image7.jpg")
+
+
+
+
+Enter the folders destination in the space between the speach marks and the front slash
+the folder destination can be found by right clicking any image and clicking on the properties option. then copy the location and insert it in the blank space.
+once you have done that go back to the code editor and click run to run the program.
+
+
+Notes:
+
+When you click the "End tutorial" button on the tutorial page it doesnt currently send you to the main sniffing window so you will need to click on the back button found at the top left side of the window to go back to the landing page.
+You will then click enter click "No" for the tutorial and you will then be taken to the sniffer window.   
+
